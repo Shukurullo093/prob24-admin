@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prob24 | ro'yhat</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <header class="d-flex align-items-center m-2 border-bottom p-1">
+            <img src="images/iib_logo.png" alt="Logo" width="110" class="logo">
+            <h4 class="text-light ml-2" style="font-size: 20px;">Toshkent Shahar Ichki Ishlar Bosh Boshqarmasi <span class="text-success text-uppercase" style="font-size: 22px;">Probatsiya</span> platformasi</h4>
+        </header>
+        <div class="filters mt-1">
+            <div class="w-100 d-flex flex-column flex-sm-row justify-content-around gap-1">
+                <div class="input-group">
+                    <label class="input-group-text" for="inputGroupSelect01">Yil</label>
+                    <select class="form-control" id="inputGroupSelect01">
+                      <option value="2025">2025</option>
+                      <option value="2024">2024</option>
+                      <option value="2023">2023</option>
+                    </select>
+                </div> 
+                <div class="input-group my-1">
+                    <label class="input-group-text" for="inputGroupSelect02">Oy</label>
+                    <select class="form-control" id="inputGroupSelect02">
+                      <option value="1">Yanvar</option>
+                      <option value="2">Fevral</option>
+                      <option value="3">Mart</option>
+                      <option value="4">Aprel</option>
+                      <option value="5">May</option>
+                      <option value="6">Iyun</option>
+                      <option value="7">Iyul</option>
+                      <option value="8">Avgust</option>
+                      <option value="9">Sentabr</option>
+                      <option value="10">Oktyabr</option>
+                      <option value="11">Noyabr</option>
+                      <option value="12">Dekabr</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label class="input-group-text" for="inputGroupSelect03">Kun</label>
+                    <select class="form-control" id="inputGroupSelect03">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                      <option value="13">13</option>
+                      <option value="14">14</option>
+                      <option value="15">15</option>
+                      <option value="16">16</option>
+                      <option value="17">17</option>
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20">20</option>
+                      <option value="21">21</option>
+                      <option value="22">22</option>
+                      <option value="23">23</option>
+                      <option value="24">24</option>
+                      <option value="25">25</option>
+                      <option value="26">26</option>
+                      <option value="27">27</option>
+                      <option value="28">28</option>
+                      <option value="29">29</option>
+                      <option value="30">30</option>
+                    </select>
+                </div> 
+                <button class="btn btn-danger w-100 mt-1" type="button">Filterlarni bekor qilish</button>
+            </div>
+        </div>
+        <div class="table-responsive mt-3">
+            <table class="table align-middle table-bordered table-hover">
+              <thead>
+                <tr class="text-primary text-center align-items-center">
+                    <th scope="col">№</th>
+                    <th scope="col">FIO</th>
+                    <th scope="col">Manzil</th>
+                    <th scope="col">Rasm</th>
+                    <th scope="col">Yaratilgan vaqt</th>
+                    <th scope="col">Izoh</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="text-primary">
+                    <th scope="row">1</th>
+                    <td>Хурсанд Шихов Давронович</td>
+                    <td>620</td>
+                    <td class="text-center p-1">
+                        <div class="position-relative rounded" style="width: 100px; height: 100px;">
+                            <img class="img-fluid w-100 h-100 rounded" src="images/person-1.jpeg">
+                            <!-- <i class="bi bi-arrow-repeat position-absolute"></i> -->
+                        </div>
+                    </td>
+                    <td>30 Apr 2025 01:47:56</td>
+                    <td>uyida bor</td>
+                </tr>
+                <tr class="text-primary">
+                    <th scope="row">2</th>
+                    <td>Ғайрат Ўринов Қудрат ўғли</td>
+                    <td>500</td>
+                    <td class="text-center p-1">
+                        <div class="position-relative rounded" style="width: 100px; height: 100px;">
+                            <img class="img-fluid w-100 h-100 rounded" src="images/person-1.jpeg">
+                            <!-- <i class="bi bi-arrow-repeat position-absolute"></i> -->
+                        </div>
+                    </td>
+                    <td>30 Apr 2025 00:27:35</td>
+                    <td>2</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+    </main>
+
+    <nav class="bottom-nav">
+        <a href="index.html" class="nav-link"><i class="bi bi-house-door-fill"></i></a>
+        <a href="dashboard.html" class="nav-link"><i class="bi bi-caret-left"></i></a>
+        <a href="dashboard.html" class="nav-link"><i class="bi bi-person-circle"></i></a>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</body>
+</html>
